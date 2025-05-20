@@ -1,24 +1,9 @@
-import React, { useState } from "react";
-import ConfigScreen from "./components/ConfigScreen";
-import GameScreen from "./components/GameScreen";
-import "./App.css";
+import React from 'react';
 
 function App() {
-  const [gameStarted, setGameStarted] = useState(false);
-  const [config, setConfig] = useState(null);
-
-  const handleStartGame = (configData) => {
-    setConfig(configData);
-    setGameStarted(true);
-  };
-
   return (
-    <div className="App">
-      {!gameStarted ? (
-        <ConfigScreen onStartGame={handleStartGame} />
-      ) : (
-        <GameScreen config={config} />
-      )}
+    <div>
+      <h1>Spot the Difference Game</h1>
     </div>
   );
 }
