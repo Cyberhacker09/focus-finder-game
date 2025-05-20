@@ -12,10 +12,13 @@ This is a JSON-configurable "Spot the Difference" game built with ReactJS as par
 - Sound effects
 - Responsive on all devices
 
+  # How to Run the Game
+  npm install
+  npm start
+
 ## 📁 JSON Configuration
 
 Located in `public/config.json`
-
 ```json
 {
   "gameTitle": "Spot the Difference - Animals",
