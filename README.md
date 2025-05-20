@@ -12,9 +12,9 @@ This is a JSON-configurable "Spot the Difference" game built with ReactJS as par
 - Sound effects
 - Responsive on all devices
 
-  # How to Run the Game
-  npm install
-  npm start
+    # How to Run the Game
+    1.npm install
+    2.npm start
 
 ## 📁 JSON Configuration
 
